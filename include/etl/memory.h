@@ -49,6 +49,7 @@ SOFTWARE.
   #include <memory>
 #endif
 
+extern "C" void *memset(void *s, int c, size_t n);
 extern "C" void* memcpy(void* __restrict__ a, const void* __restrict__ b, size_t len);
 extern "C" void* memmove(void* a, const void* b, size_t len);
 extern "C" void* memchr(const void* a, int b, size_t len);
