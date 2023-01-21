@@ -38,7 +38,7 @@ SOFTWARE.
 #include "endianness.h"
 #include "type_traits.h"
 
-#include <string.h>
+//#include <string.h>
 
 #if ETL_USING_CPP20 && ETL_USING_STL
   #include <bit>

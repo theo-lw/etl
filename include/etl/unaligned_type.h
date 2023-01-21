@@ -41,7 +41,7 @@ SOFTWARE.
 #include "iterator.h"
 #include "algorithm.h"
 
-#include <string.h>
+//#include <string.h>
 
 namespace etl
 {

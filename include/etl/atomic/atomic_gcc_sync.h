@@ -37,7 +37,7 @@ SOFTWARE.
 #include "../mutex.h"
 
 #include <stdint.h>
-#include <string.h>
+//#include <string.h>
 
 // Select the amtomic builtins based on the ARM5 version of the GCC compiler.
 #if defined(ETL_COMPILER_ARM5)

@@ -43,7 +43,7 @@ SOFTWARE.
 #include "binary.h"
 
 #include <stdint.h>
-#include <string.h>
+//#include <string.h>
 
 namespace etl
 {

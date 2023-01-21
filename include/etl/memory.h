@@ -43,11 +43,16 @@ SOFTWARE.
 #include "private/addressof.h"
 
 #include <assert.h>
-#include <string.h>
+//#include <string.h>
 
 #if defined(ETL_IN_UNIT_TEST) || ETL_USING_STL
   #include <memory>
 #endif
+
+extern "C" void* memcpy(void* __restrict__ a, const void* __restrict__ b, size_t len);
+extern "C" void* memmove(void* a, const void* b, size_t len);
+extern "C" void* memchr(const void* a, int b, size_t len);
+extern "C" int memcmp(const void* __restrict__ a, const void* __restrict__ b, size_t len);
 
 ///\defgroup memory memory
 ///\ingroup etl
